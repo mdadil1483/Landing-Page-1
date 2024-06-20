@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+    background-color: hsla(342, 15%, 30%, 0.897);
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26% ;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width: 57% ;
+    background-color: rgb(145, 139, 220);
+    background-image: url("https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9kZWx8ZW58MHx8MHx8fDA%3D");
+    background-size:cover;
+    background-position: center;
+    
+
+}
+overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(89, 79, 79, 0.669);
+}
+#part3
+{
+    height: 100%;
+    width: 7% ;
+    /* background-color: rgb(0, 255, 157); */
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    width: 350px;
+    /* background-color: blanchedalmond; */
+    left: 8%;
+    top: 60%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    letter-spacing: 8px;
+    line-height: 77px;
+    color:white;
+    text-transform: uppercase;
+}
+
+#small-img-div{
+    height: 400px;
+    width: 270px;
+    /* background-color: red; */
+    background-image: url("https://images.unsplash.com/photo-1565395955673-2c715d6a1bd5?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    transform: translate(0,-50%);
+    border-radius: 7px;
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -30%;
+    top: 1%;
+    transform-origin: 0% 0%;
+    /* width: 100%; */
+    /* background-color: brown; */
+}
+#vertical-text h1{
+    font-size: 66px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+    right: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* transform:rotate(); */
+    letter-spacing: 1px;
+
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color:#fff ;
+}
+
+#nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 8%;
+    top: 5%;
+    /* background-color: red; */
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 30px;
+    font-family: 'gilroy';
+    color:#fff ;
+}
